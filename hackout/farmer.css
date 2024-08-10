@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8FBF8;
+}
+
+.navbar {
+    width: 100%;
+    padding: 16px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.navbar img {
+    width: 142px;
+    height: auto;
+}
+
+/* .navbar img { */
+
+/* display: block; */
+/* background-image: url('logo.jpg');
+    background-size: cover;
+    /* Ensure the image fits within the element */
+/* background-repeat: no-repeat; */
+/* width: 142px; */
+/* Adjust to the size of your logo */
+/* height: 67px; */
+*/
+/* Adjust to the size of your logo */
+/* } */
+
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu div {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar .menu div:hover {
+    color: #4BAD5E;
+}
+
+.navbar .get-started {
+    padding: 12px 24px;
+    background-color: #4BAD5E;
+    border-radius: 12px;
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero {
+    /* position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box; */
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('paudha.jpg');
+    /* Set the paudha.jpg as the background image */
+    background-size: cover;
+    /* Ensure the image covers the entire hero section */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    position: relative;
+    left: -250px;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.hero-content h1 span {
+    color: #0FC80F;
+
+}
+
+.highlight {
+    display: block;
+    text-align: left;
+}
+
+.hero-content .get-started {
+    padding: 12px 24px;
+    background-color: #0FC80F;
+    border-radius: 12px;
+    color: #F5F5F5;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.services {
+    width: 100%;
+    padding: 32px 5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 120px;
+    text-align: center;
+    margin: 20px;
+}
+
+.service-item img {
+    width: 80px;
+    height: auto;
+}
+
+.service-item div {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.service-icon {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(30.62, 42.93, 33.49, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon farmer {
+    background-image: url('plough.jpg');
+    background-size: cover;
+
+}
+
+.service-icon storage {
+    background-image: url('manas.jpg');
+    background-size: cover;
+
+}
+
+.service-icon mill {
+    background-image: url('plough.jpg');
+    background-size: cover;
+
+}
+
+.service-icon business {
+    background-image: url('plough.jpg');
+    background-size: cover;
+
+}
+
+.about {
+    width: 100%;
+    padding: 60px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8FBF8;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.about .about-text {
+    max-width: 800px;
+}
+
+.about .about-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.about .about-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.about .about-image {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+.about .about-image img {
+    width: 100%;
+    height: auto;
+    /* background-image: url('sunset.jpg');
+    background-size: cover; */
+    border-radius: 13.93px;
+    /* border: 6px solid #4BAD5E; */
+}
+
+/* .sunset {
+    background-image: url('sunset.jpg');
+    background-size: cover;
+
+} */
+
+.about .about-image .stats {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0px 3.48px 9.32px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    border: 6px solid #F7F9F6;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about .about-image .stats div {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    line-height: 1.2;
+}
+
+.mission {
+    width: 100%;
+    padding: 60px 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.mission h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.mission p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.mission .image-container {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-color: #C2DBA5;
+    margin-top: 40px;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        gap: 10px;
+    }
+
+    .navbar .menu div {
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content .get-started {
+        font-size: 18px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .service-item {
+        max-width: 150px;
+    }
+
+    .about {
+        padding: 40px 5%;
+    }
+
+    .about .about-text h2 {
+        font-size: 28px;
+    }
+
+    .about .about-text p {
+        font-size: 16px;
+    }
+
+    .mission h2 {
+        font-size: 28px;
+    }
+
+    .mission p {
+        font-size: 16px;
+    }
+}
+
+.lorem-section {
+    width: 100%;
+    padding: 40px 5%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.lorem-section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.two-divs-section {
+    width: 100%;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.side-by-side-box {
+    width: 50%;
+    padding: 20px;
+    background-color: #F8FBF8;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    margin: 15px;
+    /* border-radius: 8px; */
+    border-radius: 13.93px;
+    /* border: 4px solid #4BAD5E; */
+}
+
+.side-by-side-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-top: 0;
+}
+
+.side-by-side-box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+    line-height: 1.6;
+}
+
+.bone {
+    width: 50%;
+    height: 700px;
+    background-image: url('Frame.png');
+    background-size: cover;
+
+}
+
+.btwo {
+    position: relative;
+    bottom: -100px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image: url('25walu.png');
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 768px) {
+    .two-divs-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-by-side-box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.b1im {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.bcontent {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 15px;
+
+}
